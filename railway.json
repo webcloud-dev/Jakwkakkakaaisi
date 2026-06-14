@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "DOCKERFILE"
+  },
+  "deploy": {
+    "startCommand": "/start.sh",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
